@@ -1,0 +1,11 @@
+.rounded-corners {
+  border-radius: 10px;
+}
+
+.has-margin {
+  margin: 1rem 1rem 0 0;
+}
+
+.has-bottom-margin {
+  margin-bottom: 2rem;
+}
