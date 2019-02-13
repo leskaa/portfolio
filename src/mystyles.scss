@@ -22,7 +22,7 @@ $grey-light: $gainsboro;
 $primary: $slate-blue;
 $primary-invert: $white-smoke;
 $info: $turquoise;
-$info-invert: $white-smoke;
+$info-invert: $charcoal;
 $link: $granny-smith-apple;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
@@ -43,8 +43,8 @@ $input-shadow: none;
   border-radius: 10px;
 }
 
-.has-margin {
-  margin: 1rem 1rem 0 0;
+.has-top-margin {
+  margin-top: 1rem;
 }
 
 .has-bottom-margin {
