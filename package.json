@@ -22,6 +22,7 @@
     "@babel/preset-env": "^7.3.1",
     "babel-loader": "^8.0.5",
     "bulma": "^0.7.4",
+    "cname-webpack-plugin": "^1.0.4",
     "css-loader": "^2.1.0",
     "eslint": "^5.13.0",
     "eslint-config-airbnb-base": "^13.1.0",

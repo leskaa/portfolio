@@ -35,3 +35,6 @@ public
 
 #VSCode Files
 .vscode/*
+
+#Deployment specific files
+CNAME

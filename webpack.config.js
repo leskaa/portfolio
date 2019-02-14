@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const CnameWebpackPlugin = require('cname-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -29,5 +30,10 @@ module.exports = {
       }
     ]
   },
-  plugins: [new ExtractTextPlugin('css/mystyles.css')]
+  plugins: [
+    new ExtractTextPlugin('css/mystyles.css'),
+    new CnameWebpackPlugin({
+      domain: 'alexleska.me'
+    })
+  ]
 };
