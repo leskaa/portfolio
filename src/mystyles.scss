@@ -24,6 +24,7 @@ $primary-invert: $white-smoke;
 $info: $turquoise;
 $info-invert: $charcoal;
 $link: $granny-smith-apple;
+$link-invert: $charcoal;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
@@ -32,6 +33,7 @@ $body-background-color: $white-smoke;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
+$footer-padding: 2rem 1.5rem 2rem;
 
 // Import only what you need from Bulma
 // @import "../node_modules/bulma/sass/layout/hero.sass"
@@ -49,4 +51,13 @@ $input-shadow: none;
 
 .has-bottom-margin {
   margin-bottom: 2rem;
+}
+
+.fa-lg {
+  text-align: center;
+}
+
+.copyright {
+  margin-top: 0.25rem;
+  margin-left: 0.5rem;
 }
