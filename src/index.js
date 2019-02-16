@@ -1,2 +1,3 @@
 require('./mystyles.scss');
-require('./header.js');
+require('./header/autotype');
+require('./header/scroll');

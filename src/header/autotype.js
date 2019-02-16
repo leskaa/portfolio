@@ -2,7 +2,7 @@ import Typewriter from 'typewriter-effect/dist/core';
 
 document.addEventListener(
   'DOMContentLoaded',
-  function() {
+  () => {
     const typewriter = new Typewriter('#typewriter', { loop: true });
     typewriter
       .changeDeleteSpeed(50)

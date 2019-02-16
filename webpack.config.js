@@ -4,10 +4,12 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CnameWebpackPlugin = require('cname-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+    index: './src/index.js'
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'js/bundle.js'
+    filename: 'js/[name].bundle.js'
   },
   module: {
     rules: [

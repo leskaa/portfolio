@@ -40,6 +40,7 @@
     "webpack-cli": "^3.2.3"
   },
   "dependencies": {
+    "smooth-scroll": "^15.0.0",
     "typewriter-effect": "^2.5.2"
   }
 }
