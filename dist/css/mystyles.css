@@ -6387,8 +6387,40 @@ label.panel-block {
 .copyright {
   margin-top: 0.25rem; }
 
-.project-listing {
-  transition: transform 1s ease; }
-  .project-listing:hover {
-    transform: scale(1.01, 1.01);
-    filter: drop-shadow(0.05em 0.1em 0.1em #9ee493); }
+.project-listing:hover {
+  -webkit-animation: project-listing 0.4s cubic-bezier(0.25, 0.46, 0.42, 0.96) both;
+  animation: project-listing 0.4s cubic-bezier(0.25, 0.46, 0.42, 0.96) both; }
+
+@-webkit-keyframes project-listing {
+  0% {
+    box-shadow: 0 0 0 0 #9ee493; }
+  100% {
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+    box-shadow: 0 0 1em 0 #9ee493; } }
+
+@keyframes project-listing {
+  0% {
+    box-shadow: 0 0 0 0 #9ee493; }
+  100% {
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+    box-shadow: 0 0 1em 0 #9ee493; } }
+
+.bounce {
+  animation: bounce 4s infinite; }
+
+@keyframes bounce {
+  0%,
+  50%,
+  70%,
+  90%,
+  100% {
+    -webkit-transform: translate(0);
+    transform: translateY(0); }
+  60% {
+    -webkit-transform: translate(-1.8em);
+    transform: translateY(-1.8em); }
+  80% {
+    -webkit-transform: translate(-2.1em);
+    transform: translateY(-2.1em); } }
