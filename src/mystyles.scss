@@ -37,9 +37,11 @@ $footer-padding: 2rem 1.5rem 2rem;
 
 // Import only what you need from Bulma
 // @import "../node_modules/bulma/sass/layout/hero.sass"
-
-// Imports last (after variables are changed)
-@import '~bulma/bulma';
+@import '../node_modules/bulma/sass/utilities/_all.sass';
+@import '../node_modules/bulma/sass/base/_all.sass';
+@import '../node_modules/bulma/sass/elements/_all.sass';
+@import '../node_modules/bulma/sass/grid/_all.sass';
+@import '../node_modules/bulma/sass/layout/_all.sass';
 
 .rounded-corners {
   border-radius: 10px;
