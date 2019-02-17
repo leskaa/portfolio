@@ -55,6 +55,12 @@ $footer-padding: 2rem 1.5rem 2rem;
   margin-bottom: 2rem;
 }
 
+.bouncy-arrow {
+  @include mobile {
+    margin-bottom: 64px;
+  }
+}
+
 .fa-lg {
   text-align: center;
 }

@@ -4745,6 +4745,10 @@ a.tag:hover {
 .has-bottom-margin {
   margin-bottom: 2rem; }
 
+@media screen and (max-width: 768px) {
+  .bouncy-arrow {
+    margin-bottom: 64px; } }
+
 .fa-lg {
   text-align: center; }
 
