@@ -28,7 +28,7 @@
   width: 0.625em; }
 
 .box:not(:last-child), .content:not(:last-child), .notification:not(:last-child), .progress:not(:last-child), .table:not(:last-child), .table-container:not(:last-child), .title:not(:last-child),
-.subtitle:not(:last-child), .block:not(:last-child), .highlight:not(:last-child) {
+.subtitle:not(:last-child), .block:not(:last-child), .highlight:not(:last-child), .message:not(:last-child) {
   margin-bottom: 1.5rem; }
 
 .delete {
@@ -4735,6 +4735,135 @@ a.tag:hover {
 .footer {
   background-color: #fafafa;
   padding: 2rem 1.5rem 2rem; }
+
+.message {
+  background-color: whitesmoke;
+  border-radius: 4px;
+  font-size: 1rem; }
+  .message strong {
+    color: currentColor; }
+  .message a:not(.button):not(.tag):not(.dropdown-item) {
+    color: currentColor;
+    text-decoration: underline; }
+  .message.is-small {
+    font-size: 0.75rem; }
+  .message.is-medium {
+    font-size: 1.25rem; }
+  .message.is-large {
+    font-size: 1.5rem; }
+  .message.is-white {
+    background-color: white; }
+    .message.is-white .message-header {
+      background-color: white;
+      color: #0a0a0a; }
+    .message.is-white .message-body {
+      border-color: white;
+      color: #4d4d4d; }
+  .message.is-black {
+    background-color: #fafafa; }
+    .message.is-black .message-header {
+      background-color: #0a0a0a;
+      color: white; }
+    .message.is-black .message-body {
+      border-color: #0a0a0a;
+      color: #090909; }
+  .message.is-light {
+    background-color: #fafafa; }
+    .message.is-light .message-header {
+      background-color: whitesmoke;
+      color: #2b374d; }
+    .message.is-light .message-body {
+      border-color: whitesmoke;
+      color: #505050; }
+  .message.is-dark {
+    background-color: #f8f9fb; }
+    .message.is-dark .message-header {
+      background-color: #2b374d;
+      color: whitesmoke; }
+    .message.is-dark .message-body {
+      border-color: #2b374d;
+      color: #242d3d; }
+  .message.is-primary {
+    background-color: #f7f7fd; }
+    .message.is-primary .message-header {
+      background-color: #6369d1;
+      color: #f5f5f5; }
+    .message.is-primary .message-body {
+      border-color: #6369d1;
+      color: #3b41a8; }
+  .message.is-link {
+    background-color: #f8fdf7; }
+    .message.is-link .message-header {
+      background-color: #9ee493;
+      color: #34435e; }
+    .message.is-link .message-body {
+      border-color: #9ee493;
+      color: #2e5927; }
+  .message.is-info {
+    background-color: #f6fdfd; }
+    .message.is-info .message-header {
+      background-color: #60e1e0;
+      color: #34435e; }
+    .message.is-info .message-body {
+      border-color: #60e1e0;
+      color: #164040; }
+  .message.is-success {
+    background-color: #f6fef9; }
+    .message.is-success .message-header {
+      background-color: #23d160;
+      color: #fff; }
+    .message.is-success .message-body {
+      border-color: #23d160;
+      color: #0e301a; }
+  .message.is-warning {
+    background-color: #fffdf5; }
+    .message.is-warning .message-header {
+      background-color: #ffdd57;
+      color: rgba(0, 0, 0, 0.7); }
+    .message.is-warning .message-body {
+      border-color: #ffdd57;
+      color: #3b3108; }
+  .message.is-danger {
+    background-color: #fff5f7; }
+    .message.is-danger .message-header {
+      background-color: #ff3860;
+      color: #fff; }
+    .message.is-danger .message-body {
+      border-color: #ff3860;
+      color: #cd0930; }
+
+.message-header {
+  align-items: center;
+  background-color: #34435e;
+  border-radius: 4px 4px 0 0;
+  color: #fff;
+  display: flex;
+  font-weight: 700;
+  justify-content: space-between;
+  line-height: 1.25;
+  padding: 0.75em 1em;
+  position: relative; }
+  .message-header .delete {
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-left: 0.75em; }
+  .message-header + .message-body {
+    border-width: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0; }
+
+.message-body {
+  border-color: #dbdbdb;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  color: #34435e;
+  padding: 1.25em 1.5em; }
+  .message-body code,
+  .message-body pre {
+    background-color: white; }
+  .message-body pre code {
+    background-color: transparent; }
 
 .rounded-corners {
   border-radius: 10px; }
