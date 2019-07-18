@@ -38,3 +38,6 @@ public
 
 #Deployment specific files
 CNAME
+
+#OSX
+.DS_Store
