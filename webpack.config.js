@@ -37,5 +37,10 @@ module.exports = {
     new CnameWebpackPlugin({
       domain: 'alexleska.me'
     })
-  ]
+  ],
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    compress: true,
+    port: 9000
+  }
 };
