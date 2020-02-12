@@ -77,24 +77,10 @@ $footer-padding: 2rem 1.5rem 2rem;
   height: 100%;
 }
 
-@media only screen and (min-width: 1200px) {
-  .project-container {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .competition-container {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-}
-
 @media only screen and (max-width: 600px) {
   .project-container {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 6%;
+    margin-right: 6%;
   }
 }
 
@@ -102,6 +88,38 @@ $footer-padding: 2rem 1.5rem 2rem;
   .project-container {
     margin-left: 15%;
     margin-right: 15%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .project-container {
+    margin-left: 13%;
+    margin-right: 13%;
+  }
+  .competition-container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .larger-icon-list {
+    margin-right: 29%;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .project-container {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media only screen and (min-width: 3000px) {
+  .project-container {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  .competition-container {
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
 

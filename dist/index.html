@@ -14,6 +14,10 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+    />
   </head>
   <body>
     <section class="hero is-primary is-bold is-fullheight">
@@ -44,6 +48,70 @@
       <h1 class="title is-2 has-text-centered">Projects</h1>
       <div class="columns">
         <div class="column is-flex">
+          <a class="box project-listing" href="https://drafthelper.netlify.com/">
+            <p class="title is-5 has-text-centered">Draft Aggregator</p>
+            <figure class="image">
+              <img class="rounded-corners" src="images/drafthelper.jpg" />
+            </figure>
+            <p class="subtitle is-6 has-top-margin">
+              React SPA that provides drafting recommendations for Dota 2 players from synergies, counters, and professional meta.
+            </p>
+            <div class="columns is-mobile larger-icon-list">
+              <div class="column has-text-centered">
+                <span class="icon is-medium">
+                  <img src="https://img.icons8.com/color/144/000000/javascript.png" />
+                </span>
+              </div>
+              <div class="column has-text-centered">
+                <span class="icon is-medium">
+                  <img src="https://img.icons8.com/ultraviolet/120/000000/react.png" />
+                </span>
+              </div>
+              <!-- TODO: Learn how to use bulma column size classes for offset -->
+              <div class="column"></div>
+              <div class="column"></div>
+              <div class="column"></div>
+            </div>
+          </a>
+        </div>
+        <div class="column is-flex">
+          <a class="box project-listing" href="https://techintern.netlify.com/">
+            <p class="title is-5 has-text-centered">TechIntern.fyi</p>
+            <figure class="image">
+              <img src="images/internapi.jpg" class="rounded-corners" />
+            </figure>
+            <p class="subtitle is-6 has-top-margin">
+              Full-Stack Application built with React, NodeJS, Typescript, GraphQL, MongoDB and Redis. Allows users to view and share crowdsourced data on internship positions in the technology industry.
+            </p>
+            <div class="columns is-mobile larger-icon-list">
+              <div class="column has-text-centered">
+                <span class="icon is-medium">
+                  <img src="https://img.icons8.com/color/144/000000/typescript.png" />
+                </span>
+              </div>
+              <div class="column has-text-centered">
+                <span class="icon is-medium">
+                  <img src="https://img.icons8.com/ultraviolet/120/000000/react.png" />
+                </span>
+              </div>
+              <div class="column has-text-centered">
+                <span class="icon is-medium">
+                  <img src="https://img.icons8.com/color/48/000000/graphql.png" />
+                </span>
+              </div>
+              <div class="column has-text-centered">
+                <span class="icon is-medium">
+                  <i class="fab fa-2x devicon-mongodb-plain-wordmark colored"></i>
+                </span>
+              </div>
+              <!-- TODO: Learn how to use bulma column size classes for offset -->
+              <div class="column"></div>
+              </div>
+          </a>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-flex">
           <a class="box project-listing" href="https://leskaa.github.io/MazeGenerator/">
             <p class="title is-5 has-text-centered">Maze Generator</p>
             <figure class="image">
@@ -54,21 +122,13 @@
             </p>
             <div class="columns is-mobile">
               <div class="column has-text-centered">
-                <span class="icon is-medium has-text-danger">
-                  <i class="fab fa-2x fa-html5"></i>
-                </span>
-              </div>
-              <div class="column has-text-centered">
-                <span class="icon is-medium has-text-info">
-                  <i class="fab fa-2x fa-css3"></i>
-                </span>
-              </div>
-              <div class="column has-text-centered">
-                <span class="icon is-medium has-text-warning">
-                  <i class="fab fa-2x fa-js"></i>
+                <span class="icon is-medium">
+                  <img src="https://img.icons8.com/color/144/000000/javascript.png" />
                 </span>
               </div>
               <!-- TODO: Learn how to use bulma column size classes for offset -->
+              <div class="column"></div>
+              <div class="column"></div>
               <div class="column"></div>
               <div class="column"></div>
             </div>
@@ -85,22 +145,26 @@
             </p>
             <div class="columns is-mobile">
               <div class="column has-text-centered">
-                <span class="icon is-medium has-text-danger">
-                  <i class="fab fa-2x fa-html5"></i>
+                <span class="icon is-medium">
+                  <img src="https://img.icons8.com/color/144/000000/javascript.png" />
                 </span>
               </div>
               <div class="column has-text-centered">
-                <span class="icon is-medium has-text-info">
-                  <i class="fab fa-2x fa-css3"></i>
+                <span class="icon is-medium">
+                  <img src="https://img.icons8.com/ultraviolet/120/000000/react.png" />
                 </span>
               </div>
               <div class="column has-text-centered">
-                <span class="icon is-medium has-text-warning">
-                  <i class="fab fa-2x fa-js"></i>
+                <span class="icon is-medium">
+                  <i class="fab fa-2x fa-node"></i>
+                </span>
+              </div>
+              <div class="column has-text-centered">
+                <span class="icon is-medium">
+                  <img src="https://img.icons8.com/color/48/000000/postgreesql.png" />
                 </span>
               </div>
               <!-- TODO: Learn how to use bulma column size classes for offset -->
-              <div class="column"></div>
               <div class="column"></div>
             </div>
           </a>
@@ -117,13 +181,13 @@
             </p>
             <div class="columns is-mobile">
               <div class="column has-text-centered">
-                <span class="icon is-medium has-text-grey">
-                  <i class="fab fa-2x fa-python"></i>
+                <span class="icon is-medium">
+                  <img src="https://img.icons8.com/color/144/000000/python.png" />
                 </span>
               </div>
               <div class="column has-text-centered">
-                <span class="icon is-medium has-text-warning">
-                  <i class="fab fa-2x fa-js"></i>
+                <span class="icon is-medium">
+                  <img src="https://img.icons8.com/color/144/000000/javascript.png" />
                 </span>
               </div>
               <!-- TODO: Learn how to use bulma column size classes for offset -->
@@ -142,26 +206,18 @@
               <img class="rounded-corners" src="images/catchinggame.jpg" />
             </figure>
             <p class="subtitle is-6 has-top-margin">
-              Become a chimney in this javascript game utilizing collision detection and basic
-              physics.
+              Javascript game utilizing collision detection and basic
+              physics. Built with P5 graphics library.
             </p>
             <div class="columns is-mobile">
               <div class="column has-text-centered">
-                <span class="icon is-medium has-text-danger">
-                  <i class="fab fa-2x fa-html5"></i>
-                </span>
-              </div>
-              <div class="column has-text-centered">
-                <span class="icon is-medium has-text-info">
-                  <i class="fab fa-2x fa-css3"></i>
-                </span>
-              </div>
-              <div class="column has-text-centered">
-                <span class="icon is-medium has-text-warning">
-                  <i class="fab fa-2x fa-js"></i>
+                <span class="icon is-medium">
+                  <img src="https://img.icons8.com/color/144/000000/javascript.png" />
                 </span>
               </div>
               <!-- TODO: Learn how to use bulma column size classes for offset -->
+              <div class="column"></div>
+              <div class="column"></div>
               <div class="column"></div>
               <div class="column"></div>
             </div>
@@ -174,15 +230,19 @@
               <img class="rounded-corners" src="images/asteroids.jpg" />
             </figure>
             <p class="subtitle is-6 has-top-margin">
-              AP Computer Science project demonstrating object-oriented design. Created with the
-              Processing for Java library.
+              AP Computer Science project demonstrating object-oriented design. Built with Processing for Java.
             </p>
             <div class="columns is-mobile">
-              <div class="column is-one-fifth has-text-centered">
-                <span class="icon is-medium has-text-grey">
-                  <i class="fab fa-2x fa-java"></i>
+              <div class="column has-text-centered">
+                <span class="icon is-medium">
+                  <img src="https://img.icons8.com/color/144/000000/java-coffee-cup-logo.png" />
                 </span>
               </div>
+              <!-- TODO: Learn how to use bulma column size classes for offset -->
+              <div class="column"></div>
+              <div class="column"></div>
+              <div class="column"></div>
+              <div class="column"></div>
             </div>
           </a>
         </div>
@@ -198,26 +258,18 @@
             </p>
             <div class="columns is-mobile">
               <div class="column has-text-centered">
-                <span class="icon is-medium has-text-danger">
-                  <i class="fab fa-2x fa-html5"></i>
+                <span class="icon is-medium">
+                  <img src="https://img.icons8.com/color/144/000000/java-coffee-cup-logo.png" />
                 </span>
               </div>
               <div class="column has-text-centered">
-                <span class="icon is-medium has-text-info">
-                  <i class="fab fa-2x fa-css3"></i>
-                </span>
-              </div>
-              <div class="column has-text-centered">
-                <span class="icon is-medium has-text-warning">
-                  <i class="fab fa-2x fa-js"></i>
-                </span>
-              </div>
-              <div class="column has-text-centered">
-                <span class="icon is-medium has-text-grey">
-                  <i class="fab fa-2x fa-java"></i>
+                <span class="icon is-medium">
+                  <img src="https://img.icons8.com/color/144/000000/javascript.png" />
                 </span>
               </div>
               <!-- TODO: Learn how to use bulma column size classes for offset -->
+              <div class="column"></div>
+              <div class="column"></div>
               <div class="column"></div>
             </div>
           </a>
