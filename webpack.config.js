@@ -1,7 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const CnameWebpackPlugin = require('cname-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -33,10 +32,7 @@ module.exports = {
     ]
   },
   plugins: [
-    new ExtractTextPlugin('css/mystyles.css'),
-    new CnameWebpackPlugin({
-      domain: 'alexleska.me'
-    })
+    new ExtractTextPlugin('css/mystyles.css')
   ],
   devServer: {
     contentBase: path.join(__dirname, 'dist'),

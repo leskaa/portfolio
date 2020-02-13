@@ -33,11 +33,14 @@ node_modules
 public
 .idea
 
-#VSCode Files
+# VSCode Files
 .vscode/*
 
-#Deployment specific files
+# Deployment specific files
 CNAME
 
-#OSX
+# OSX
 .DS_Store
+
+# Build JS Bundle
+dist/js

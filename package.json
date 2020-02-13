@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
-    "deploy": "gh-pages -d dist -b master -r https://github.com/leskaa/leskaa.github.io.git"
+    "deploy": "gh-pages -d dist -b master -r git@github.com:leskaa/leskaa.github.io.git"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,6 @@
     "@babel/preset-env": "^7.5.5",
     "babel-loader": "^8.0.6",
     "bulma": "^0.7.5",
-    "cname-webpack-plugin": "^2.0.0",
     "css-loader": "^3.1.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.2.0",
