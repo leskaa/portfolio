@@ -29,7 +29,7 @@
           <div class="subtitle is-3 has-text-centered" id="typewriter"></div>
           <div class="has-text-centered">
             <a
-              class="button is-success is-rounded"
+              class="button is-link is-rounded"
               href="https://leskaa.github.io/resume/alex_leska_resume.pdf"
               >View My Resume</a
             >
@@ -44,6 +44,84 @@
         </div>
       </div>
     </section>
+    <section class="section project-container">
+      <h1 class="title is-2 has-text-centered">
+        Experience
+      </h1>
+      <div class="columns is-desktop">
+        <div class="column is-flex">
+          <a class="box project-listing" href="https://aws.amazon.com/glacier/">
+            <div class="columns is-mobile is-centered">
+              <div class="column is-half">
+                <p class="title is-5 has-text-left">Amazon Web Services</p>
+              </div>
+              <div class="column is-half">
+                <p class="title is-5 has-text-primary has-text-right">
+                  S3 Glacier Durability
+                </p>
+              </div>
+            </div>
+            <figure class="image">
+              <img class="rounded-corners" src="images/glacier.png" />
+            </figure>
+            <div class="media mt-4">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img
+                    src="https://media-exp1.licdn.com/dms/image/C4D0BAQGzuSBRRRuphw/company-logo_100_100/0?e=1609977600&v=beta&t=e9QMhxAp09_EdJ4JsmBAR5e1PzJlEa35HlrKGMVq6FQ"
+                    alt="Amazon Web Services"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">Software Dev Engineer Intern</p>
+                <p class="subtitle is-6">Summer 2021</p>
+              </div>
+            </div>
+            <p class="subtitle is-5 has-top-margin">
+              Designed and built library to automatically create AWS resources during deployment,
+              reducing developer burden. Designed and built load balancing system to improve
+              durability of S3 Glacier.
+            </p>
+          </a>
+        </div>
+        <div class="column is-flex">
+          <a
+            class="box project-listing"
+            href="https://smartthings.developer.samsung.com/docs/rules/overview.html"
+          >
+            <div class="columns is-mobile is-centered">
+              <div class="column is-half">
+                <p class="title is-5 has-text-left">Samsung SmartThings</p>
+              </div>
+              <div class="column is-half">
+                <p class="title is-5 has-text-primary has-text-right">
+                  Rules & Behaviors
+                </p>
+              </div>
+            </div>
+            <figure class="image">
+              <img class="rounded-corners" src="images/rulesapi.jpg" />
+            </figure>
+            <div class="media mt-4">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img src="images/smartthings.png" alt="Samsung SmartThings" />
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">Software Engineer Intern</p>
+                <p class="subtitle is-6">Summer 2020 & Winter 2021</p>
+              </div>
+            </div>
+            <p class="subtitle is-5 has-top-margin">
+              Worked with a global team of talented engineers to design and build APIs that drive
+              automations on the Samsung SmartThings IoT Platform.
+            </p>
+          </a>
+        </div>
+      </div>
+    </section>
     <section id="projects" class="section project-container">
       <h1 class="title is-2 has-text-centered">Projects</h1>
       <div class="columns is-desktop">
@@ -54,17 +132,19 @@
                 <p class="title is-5 has-text-centered">OpenTrack</p>
               </div>
               <div class="column">
-                <p class="title is-5 has-text-primary has-text-centered has-text-right">NEW!</p>
+                <p class="title is-5 has-text-success has-text-centered has-text-right">
+                  NEW
+                </p>
               </div>
             </div>
             <figure class="image">
               <img class="rounded-corners" src="images/opentrack.jpg" />
             </figure>
-            <p class="subtitle is-6 has-top-margin">
+            <p class="subtitle is-5 has-top-margin">
               Full-Stack Application that allows users to create tracks of open-source educational
               materials. Built with Python, Typescript, Django, Angular 2+ and PostgreSQL.
             </p>
-            <div class="columns is-mobile larger-icon-list">
+            <div class="columns is-mobile larger-icon-list box-footer">
               <div class="column has-text-centered">
                 <span class="icon is-medium">
                   <img src="https://img.icons8.com/color/144/000000/typescript.png" />
@@ -85,12 +165,12 @@
                   <img src="https://img.icons8.com/color/144/000000/django.png" />
                 </span>
               </div>
-              <div class="column has-text-centered">
+              <div class="column has-text-centered is-hidden-touch">
                 <span class="icon is-medium">
                   <img src="https://img.icons8.com/color/144/000000/postgreesql.png" />
                 </span>
               </div>
-              <div class="column"></div>
+              <div class="column is-hidden-touch"></div>
             </div>
           </a>
         </div>
@@ -101,18 +181,20 @@
                 <p class="title is-5 has-text-centered">Guitar Input Mapper</p>
               </div>
               <div class="column">
-                <p class="title is-5 has-text-danger has-text-centered has-text-right">WIP</p>
+                <p class="title is-5 has-text-danger has-text-centered has-text-right">
+                  WIP
+                </p>
               </div>
             </div>
             <figure class="image">
               <img src="images/guitar.jpg" class="rounded-corners" />
             </figure>
-            <p class="subtitle is-6 has-top-margin">
+            <p class="subtitle is-5 has-top-margin">
               <strong>WORK IN PROGRESS:</strong>
               Rust application that allows users to map guitar inputs to keyboard and mouse inputs.
               Includes a web interface for easy configuration of mappings.
             </p>
-            <div class="columns is-mobile larger-icon-list">
+            <div class="columns is-mobile larger-icon-list box-footer">
               <div class="column has-text-centered">
                 <span class="icon is-medium">
                   <img src="https://www.vectorlogo.zone/logos/rust-lang/rust-lang-icon.svg" />
@@ -130,8 +212,8 @@
               </div>
               <!-- TODO: Learn how to use bulma column size classes for offset -->
               <div class="column"></div>
-              <div class="column"></div>
-              <div class="column"></div>
+              <div class="column is-hidden-touch"></div>
+              <div class="column is-hidden-touch"></div>
             </div>
           </a>
         </div>
@@ -143,11 +225,11 @@
             <figure class="image">
               <img class="rounded-corners" src="images/drafthelper.jpg" />
             </figure>
-            <p class="subtitle is-6 has-top-margin">
+            <p class="subtitle is-5 has-top-margin">
               React SPA that provides drafting recommendations for Dota 2 players from synergies,
               counters, and professional meta.
             </p>
-            <div class="columns is-mobile larger-icon-list">
+            <div class="columns is-mobile larger-icon-list box-footer">
               <div class="column has-text-centered">
                 <span class="icon is-medium">
                   <img src="https://img.icons8.com/color/144/000000/javascript.png" />
@@ -161,8 +243,8 @@
               <!-- TODO: Learn how to use bulma column size classes for offset -->
               <div class="column"></div>
               <div class="column"></div>
-              <div class="column"></div>
-              <div class="column"></div>
+              <div class="column is-hidden-touch"></div>
+              <div class="column is-hidden-touch"></div>
             </div>
           </a>
         </div>
@@ -172,12 +254,12 @@
             <figure class="image">
               <img src="images/internapi.jpg" class="rounded-corners" />
             </figure>
-            <p class="subtitle is-6 has-top-margin">
+            <p class="subtitle is-5 has-top-margin">
               Full-Stack Application built with React, NodeJS, Typescript, GraphQL, MongoDB and
               Redis. Allows users to view and share crowdsourced data on internship positions in the
               technology industry.
             </p>
-            <div class="columns is-mobile larger-icon-list">
+            <div class="columns is-mobile larger-icon-list box-footer">
               <div class="column has-text-centered">
                 <span class="icon is-medium">
                   <img src="https://img.icons8.com/color/144/000000/typescript.png" />
@@ -199,8 +281,8 @@
                 </span>
               </div>
               <!-- TODO: Learn how to use bulma column size classes for offset -->
-              <div class="column"></div>
-              <div class="column"></div>
+              <div class="column is-hidden-touch"></div>
+              <div class="column is-hidden-touch"></div>
             </div>
           </a>
         </div>
@@ -212,10 +294,10 @@
             <figure class="image">
               <img class="rounded-corners" src="images/ipadmazeside.jpg" />
             </figure>
-            <p class="subtitle is-6 has-top-margin">
+            <p class="subtitle is-5 has-top-margin">
               Responsive front-end web application visualizing the recursive backtracking algorithm.
             </p>
-            <div class="columns is-mobile">
+            <div class="columns is-mobile box-footer">
               <div class="column has-text-centered">
                 <span class="icon is-medium">
                   <img src="https://img.icons8.com/color/144/000000/javascript.png" />
@@ -224,8 +306,8 @@
               <!-- TODO: Learn how to use bulma column size classes for offset -->
               <div class="column"></div>
               <div class="column"></div>
-              <div class="column"></div>
-              <div class="column"></div>
+              <div class="column is-hidden-touch"></div>
+              <div class="column is-hidden-touch"></div>
             </div>
           </a>
         </div>
@@ -235,10 +317,10 @@
             <figure class="image">
               <img src="images/todos.jpg" class="rounded-corners" />
             </figure>
-            <p class="subtitle is-6 has-top-margin">
+            <p class="subtitle is-5 has-top-margin">
               Fullstack application utilizing React, Express, and PostgreSQL.
             </p>
-            <div class="columns is-mobile">
+            <div class="columns is-mobile box-footer">
               <div class="column has-text-centered">
                 <span class="icon is-medium">
                   <img src="https://img.icons8.com/color/144/000000/javascript.png" />
@@ -260,7 +342,8 @@
                 </span>
               </div>
               <!-- TODO: Learn how to use bulma column size classes for offset -->
-              <div class="column"></div>
+              <div class="column is-hidden-touch"></div>
+              <div class="column is-hidden-touch"></div>
             </div>
           </a>
         </div>
@@ -277,11 +360,11 @@
             <figure class="image">
               <img class="rounded-corners" src="images/food.jpg" />
             </figure>
-            <p class="subtitle is-6 has-top-margin">
+            <p class="subtitle is-5 has-top-margin">
               <strong>WORK IN PROGRESS:</strong>
               NodeJS server for university dining Google Assistant action.
             </p>
-            <div class="columns is-mobile">
+            <div class="columns is-mobile box-footer">
               <div class="column has-text-centered">
                 <span class="icon is-medium">
                   <img src="https://img.icons8.com/color/144/000000/python.png" />
@@ -294,8 +377,8 @@
               </div>
               <!-- TODO: Learn how to use bulma column size classes for offset -->
               <div class="column"></div>
-              <div class="column"></div>
-              <div class="column"></div>
+              <div class="column is-hidden-touch"></div>
+              <div class="column is-hidden-touch"></div>
             </div>
           </a>
         </div>
@@ -307,11 +390,11 @@
             <figure class="image">
               <img class="rounded-corners" src="images/catchinggame.jpg" />
             </figure>
-            <p class="subtitle is-6 has-top-margin">
+            <p class="subtitle is-5 has-top-margin">
               Javascript game utilizing collision detection and basic physics. Built with P5
               graphics library.
             </p>
-            <div class="columns is-mobile">
+            <div class="columns is-mobile box-footer">
               <div class="column has-text-centered">
                 <span class="icon is-medium">
                   <img src="https://img.icons8.com/color/144/000000/javascript.png" />
@@ -320,8 +403,8 @@
               <!-- TODO: Learn how to use bulma column size classes for offset -->
               <div class="column"></div>
               <div class="column"></div>
-              <div class="column"></div>
-              <div class="column"></div>
+              <div class="column is-hidden-touch"></div>
+              <div class="column is-hidden-touch"></div>
             </div>
           </a>
         </div>
@@ -331,11 +414,11 @@
             <figure class="image">
               <img class="rounded-corners" src="images/asteroids.jpg" />
             </figure>
-            <p class="subtitle is-6 has-top-margin">
+            <p class="subtitle is-5 has-top-margin">
               AP Computer Science project demonstrating object-oriented design. Built with
               Processing for Java.
             </p>
-            <div class="columns is-mobile">
+            <div class="columns is-mobile box-footer">
               <div class="column has-text-centered">
                 <span class="icon is-medium">
                   <img src="https://img.icons8.com/color/144/000000/java-coffee-cup-logo.png" />
@@ -344,8 +427,8 @@
               <!-- TODO: Learn how to use bulma column size classes for offset -->
               <div class="column"></div>
               <div class="column"></div>
-              <div class="column"></div>
-              <div class="column"></div>
+              <div class="column is-hidden-touch"></div>
+              <div class="column is-hidden-touch"></div>
             </div>
           </a>
         </div>
@@ -355,11 +438,11 @@
             <figure class="image">
               <img class="rounded-corners" src="images/robot.jpg" />
             </figure>
-            <p class="subtitle is-6 has-top-margin">
+            <p class="subtitle is-5 has-top-margin">
               Created software for FRC Team 2606's robot and created a web based dashboard for
               drivers.
             </p>
-            <div class="columns is-mobile">
+            <div class="columns is-mobile box-footer">
               <div class="column has-text-centered">
                 <span class="icon is-medium">
                   <img src="https://img.icons8.com/color/144/000000/java-coffee-cup-logo.png" />
@@ -372,8 +455,8 @@
               </div>
               <!-- TODO: Learn how to use bulma column size classes for offset -->
               <div class="column"></div>
-              <div class="column"></div>
-              <div class="column"></div>
+              <div class="column is-hidden-touch"></div>
+              <div class="column is-hidden-touch"></div>
             </div>
           </a>
         </div>
@@ -381,68 +464,68 @@
     </section>
     <section class="section">
       <h1 class="title is-2 has-text-centered">Coding Competitions</h1>
-      <div class="columns competition-container">
-        <div class="column is-one-third">
-          <article class="box competition-listing">
+      <div class="columns competition-container is-desktop">
+        <div class="column">
+          <div class="box competition-listing">
             <div class="title is-4 has-text-centered">
               <p>Digi-Key DKC3 2020</p>
             </div>
-            <div class="subtitle is-6 has-text-centered">
+            <div class="is-size-5 has-text-centered box-footer">
               <p>October 16th</p>
             </div>
-          </article>
+          </div>
         </div>
-        <div class="column is-one-third">
-          <article class="box competition-listing">
+        <div class="column">
+          <div class="box competition-listing">
             <div class="title is-4 has-text-centered">
               <p>2020 NDSU Byte-le Royale</p>
             </div>
-            <div class="subtitle is-6 has-text-centered">
+            <div class="is-size-5 has-text-centered box-footer">
               <p><strong>2nd Place</strong> - 11 Teams</p>
             </div>
-          </article>
+          </div>
         </div>
-        <div class="column is-one-third">
-          <article class="box competition-listing">
+        <div class="column">
+          <div class="box competition-listing">
             <div class="title is-4 has-text-centered">
               <p>2020 UIUC R|P Mechmania</p>
             </div>
-            <div class="subtitle is-6 has-text-centered">
+            <div class="is-size-5 has-text-centered box-footer">
               <p><strong>3rd Place</strong> - 50 Teams</p>
             </div>
-          </article>
+          </div>
         </div>
       </div>
-      <div class="columns competition-container">
-        <div class="column is-one-third">
-          <article class="box competition-listing">
+      <div class="columns competition-container is-desktop">
+        <div class="column">
+          <div class="box competition-listing">
             <div class="title is-4 has-text-centered">
               <p>2018 ICPC North Central Regional NDSU Site</p>
             </div>
-            <div class="subtitle is-6 has-text-centered">
+            <div class="is-size-5 has-text-centered box-footer">
               <p><strong>13th Place</strong> - 30 Teams</p>
             </div>
-          </article>
+          </div>
         </div>
-        <div class="column is-one-third">
-          <article class="box competition-listing">
+        <div class="column">
+          <div class="box competition-listing">
             <div class="title is-4 has-text-centered">
               <p>2019 NDSU Byte-le Royale</p>
             </div>
-            <div class="subtitle is-6 has-text-centered">
+            <div class="is-size-5 has-text-centered box-footer">
               <p><strong>2nd Place</strong> - 8 Teams</p>
             </div>
-          </article>
+          </div>
         </div>
-        <div class="column is-one-third">
-          <article class="box competition-listing">
+        <div class="column">
+          <div class="box competition-listing">
             <div class="title is-4 has-text-centered">
               <p>2019 UIUC R|P Mechmania</p>
             </div>
-            <div class="subtitle is-6 has-text-centered">
+            <div class="is-size-5 has-text-centered box-footer">
               <p><strong>7th Place</strong> - 17 Teams</p>
             </div>
-          </article>
+          </div>
         </div>
       </div>
     </section>
